@@ -17,9 +17,11 @@ int main(int argc, const char * argv[]) {
     
     printf("Example Usage of Stack\n\n");
     converDecimalToBinary();
-    eightQueens();
+    eightQueens(); // need user input
     
     printf("\n\nExample Usage of Queue\n\n");
+    categorizingData();
+    
 
     
     

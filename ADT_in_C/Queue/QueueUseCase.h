@@ -14,4 +14,8 @@
 
 void categorizingData();
 
+void fillQueues(QUEUE* q0to9, QUEUE* q10to19, QUEUE* q20to29, QUEUE* qOver29);
+void printQueues(QUEUE* q0to9, QUEUE* q10to19, QUEUE* q20to29, QUEUE* qOver29);
+void printOneQueue(QUEUE* queue);
+
 #endif /* defined(__ADT_in_C__QueueUseCase__) */
