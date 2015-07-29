@@ -12,6 +12,7 @@
 		3218A97A1B4F8784000CEDF3 /* eightQueen.c in Sources */ = {isa = PBXBuildFile; fileRef = 3218A9741B4F8784000CEDF3 /* eightQueen.c */; };
 		3218A97B1B4F8784000CEDF3 /* QueueADT.c in Sources */ = {isa = PBXBuildFile; fileRef = 3218A9761B4F8784000CEDF3 /* QueueADT.c */; };
 		3218A97C1B4F8784000CEDF3 /* QueueUseCase.c in Sources */ = {isa = PBXBuildFile; fileRef = 3218A9781B4F8784000CEDF3 /* QueueUseCase.c */; };
+		3218A9801B4F8AC8000CEDF3 /* LinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 3218A97E1B4F8AC8000CEDF3 /* LinkedList.c */; };
 		32C7C2B21B4E5244001CF423 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 32C7C2B11B4E5244001CF423 /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,8 @@
 		3218A9771B4F8784000CEDF3 /* QueueADT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueueADT.h; sourceTree = "<group>"; };
 		3218A9781B4F8784000CEDF3 /* QueueUseCase.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = QueueUseCase.c; sourceTree = "<group>"; };
 		3218A9791B4F8784000CEDF3 /* QueueUseCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueueUseCase.h; sourceTree = "<group>"; };
+		3218A97E1B4F8AC8000CEDF3 /* LinkedList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LinkedList.c; sourceTree = "<group>"; };
+		3218A97F1B4F8AC8000CEDF3 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
 		32C7C2AE1B4E5244001CF423 /* ADT_in_C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ADT_in_C; sourceTree = BUILT_PRODUCTS_DIR; };
 		32C7C2B11B4E5244001CF423 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		32C7C2BB1B4EF669001CF423 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
@@ -78,6 +81,15 @@
 			path = Queue;
 			sourceTree = "<group>";
 		};
+		3218A97D1B4F8AB0000CEDF3 /* Linked List */ = {
+			isa = PBXGroup;
+			children = (
+				3218A97E1B4F8AC8000CEDF3 /* LinkedList.c */,
+				3218A97F1B4F8AC8000CEDF3 /* LinkedList.h */,
+			);
+			path = "Linked List";
+			sourceTree = "<group>";
+		};
 		32C7C2A51B4E5242001CF423 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +109,7 @@
 		32C7C2B01B4E5244001CF423 /* ADT_in_C */ = {
 			isa = PBXGroup;
 			children = (
+				3218A97D1B4F8AB0000CEDF3 /* Linked List */,
 				3218A9731B4F8784000CEDF3 /* Queue */,
 				3218A96C1B4F8773000CEDF3 /* Stack */,
 				32C7C2B11B4E5244001CF423 /* main.c */,
@@ -163,6 +176,7 @@
 			files = (
 				3218A9711B4F8773000CEDF3 /* StackADT.c in Sources */,
 				3218A97A1B4F8784000CEDF3 /* eightQueen.c in Sources */,
+				3218A9801B4F8AC8000CEDF3 /* LinkedList.c in Sources */,
 				32C7C2B21B4E5244001CF423 /* main.c in Sources */,
 				3218A97C1B4F8784000CEDF3 /* QueueUseCase.c in Sources */,
 				3218A97B1B4F8784000CEDF3 /* QueueADT.c in Sources */,
