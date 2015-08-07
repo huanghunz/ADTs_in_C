@@ -60,6 +60,6 @@ static void _delete (LIST *pList, LIST_NODE* pPre, LIST_NODE* pLoc);
 static bool _search (LIST *pList, LIST_NODE** pPre, LIST_NODE** pLoc, void* dataInput);
 
 int _compareData(void* pArgu, void* curArgu);
-int _compareRear();
+//int _compareRear();
 
 #endif /* defined(__ADT_in_C__LinkedList__) */
